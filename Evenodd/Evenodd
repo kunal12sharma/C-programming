@@ -2,13 +2,10 @@
 void main()
 {
 int m;
-printf("enter the interger");
-scanf("%d",m);
-{
-if(m%2=0)
+printf("enter the interger=");
+scanf("%d",&m);
+if(m%2==0)
 printf("number is even");
 else
-pritnf("number is odd");
-}
-getch();
+printf("number is odd");
 }
